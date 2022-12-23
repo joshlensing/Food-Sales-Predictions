@@ -29,5 +29,9 @@ Item_Outlet_Sales |	Sales of the product in the particular store. This is the ta
 - The 'Item_Fat_Content had inconsistent values, so they were changed appropriately.
 
 ## Results
+#### Max Retail Price Vs. Outlet Sales
 ![sample image](MaxRetailPriceVSOutletSales.png)
 
+> As the maximum retail price rises for a product, so do the outlet sales.
+
+####
