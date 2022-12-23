@@ -1,1 +1,4 @@
-# Food-Sales-Predictions
+# Predicting Sales for Outlet Stores
+
+---
+
