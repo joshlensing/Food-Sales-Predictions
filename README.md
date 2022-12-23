@@ -29,5 +29,5 @@ Item_Outlet_Sales |	Sales of the product in the particular store. This is the ta
 - The 'Item_Fat_Content had inconsistent values, so they were changed appropriately.
 
 ## Results
-![sample image](MaxRetailPriceVSOutletSales(5).png)
+![sample image](MaxRetailPriceVSOutletSales.png)
 
