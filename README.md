@@ -41,7 +41,7 @@ Item_Outlet_Sales |	Sales of the product in the particular store. This is the ta
 > Supermarket Type 1 had the largest total outlet sales, more than the other 3 combined.
 
 ## Model
-The Random Forest model had the best performance of the 3 models that were tested (Linear Regression, Decision Tree Model, and Random Tree Model). It was able to find the largest test R^2 test score of the models run and also had small variance, although that is insignificant when trying to maximize the test set score. Parameters for the number of leaf nodes and and the maximum depth were tuned as well and found that 11 leaf nodes at a depth of 5 produced the optimal test score. The RMSE and R^2 were vital in the performance of the model. MAE and MSE were not regression metrics tested.
+The Random Forest model had the best performance of the 3 models that were tested (Linear Regression, Decision Tree Model, and Random Forest Model). It was able to find the largest test R^2 test score of the models run and also had small variance, although that is insignificant when trying to maximize the test set score. Parameters for the number of leaf nodes and and the maximum depth were tuned as well and found that 11 leaf nodes at a depth of 5 produced the optimal test score. The RMSE and R^2 were vital in the performance of the model. MAE and MSE were not regression metrics tested.
 
 ## Recommendations:
 Based on the better RMSE score compared to the Linear Regression model, and the better R^2 score on the testing data, I would most recommend using the the Random Forest model with the optimized parameters for this data set to predict the target values of outlet sales. The model performed decently well and would be the best candidate for predicting future outlet sales.
