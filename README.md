@@ -40,6 +40,22 @@ Item_Outlet_Sales |	Sales of the product in the particular store. This is the ta
 
 > Supermarket Type 1 had the largest total outlet sales, more than the other 3 combined.
 
+
+#### **Linear Regression Coefficients**
+![sample image](lin_reg_coeff.png)
+
+> The top 3 coefficients from the linear regression model are the grocery store outlet type, supermarket type 3, and item visibility.
+- Grocery Outlet: If a store was a grocery store type, it impacted the outlet sales by -1,708.79 dollars.
+- Supermarket type 3: If the supermarket was type 3, it impacted the outlet sales by 1,602.48 dollars.
+- Item visibility: The visibility of an item negatively impacted the outlet sales by 264.13 dollars.
+
+#### **Top 5 Important Features**
+![sample image](top_5_features.png)
+
+> The top 5 features that were identified are the product price, grocery store outlet type, item visibility, item weight, and the supermarket type 3 outlet type.
+
+
+
 ## Model
 The Random Forest model had the best performance of the 3 models that were tested (Linear Regression, Decision Tree Model, and Random Forest Model). It was able to find the largest test R^2 test score of the models run and also had small variance, although that is insignificant when trying to maximize the test set score. Parameters for the number of leaf nodes and and the maximum depth were tuned as well and found that 11 leaf nodes at a depth of 5 produced the optimal test score. The RMSE and R^2 were vital in the performance of the model. MAE and MSE were not regression metrics tested.
 
