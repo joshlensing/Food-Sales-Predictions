@@ -55,6 +55,18 @@ Item_Outlet_Sales |	Sales of the product in the particular store. This is the ta
 > The top 5 features that were identified are the product price, grocery store outlet type, item visibility, item weight, and the supermarket type 3 outlet type.
 
 
+#### **SHAP Summary Bar Plot**
+![sample image](tree_shap_bar.png)
+
+> Outlet Establishment Year is different in the SHAP summary plot vs. the the top 5 most important features. The top 2 are also the same, but supermarket type 3 is third most important in the SHAP plot, whereas item visibility is third in the important features. Item weight is not in the top 5 in the SHAP plot.
+
+
+#### **SHAP Summary Dot Plot**
+![sample image](tree_shap_dot.png)
+
+> For the Item_MRP, many of the samples positively affected outlet sales, as seen by the many red dots to the right of 0, although it does appear balanced on the left as well with the blue dots. Grocery store negatively impacted the outlet sales, as seen by the many red dots to the left. Supermarket type 3 had a positive impact on the outlet sales.
+
+
 
 ## Model
 The Random Forest model had the best performance of the 3 models that were tested (Linear Regression, Decision Tree Model, and Random Forest Model). It was able to find the largest test R^2 test score of the models run and also had small variance, although that is insignificant when trying to maximize the test set score. Parameters for the number of leaf nodes and and the maximum depth were tuned as well and found that 11 leaf nodes at a depth of 5 produced the optimal test score. The RMSE and R^2 were vital in the performance of the model. MAE and MSE were not regression metrics tested.
