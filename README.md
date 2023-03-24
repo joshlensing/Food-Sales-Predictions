@@ -67,6 +67,32 @@ Item_Outlet_Sales |	Sales of the product in the particular store. This is the ta
 > For the Item_MRP, many of the samples positively affected outlet sales, as seen by the many red dots to the right of 0, although it does appear balanced on the left as well with the blue dots. Grocery store negatively impacted the outlet sales, as seen by the many red dots to the left. Supermarket type 3 had a positive impact on the outlet sales.
 
 
+#### **Force Plot for Outlet with Highest Sales**
+![sample image](Image/high_force.png)
+
+> In the force plot above, 'Item_MRP' is the most influential feature in predicting the outlet sales of the outlet with the highest sales.
+
+
+#### **Force Plot for Outlet with Lowest Sales**
+![sample image](Image/low_force.png)
+
+> 'Outlet_Type_Grocery Store' was the biggest predictor of the outlet sales for this outlet store.
+
+
+#### **Lime Tabular Explanation for Outlet with Highest Sales**
+![sample image](Image/high_lime.png)
+
+> The top 3 features that most influenced the outlet sales predictions were 'Outlet_Type_Grocery Store', 'Item_MRP' and 'Outlet_Type_Supermarket Type 3.'
+
+
+#### **Lime Tabular Explanation for Outlet with Lowest Sales**
+![sample image](Image/low_lime.png)
+
+> The top 3 features that predicted the outlet sales for this outlet store were 'Outlet_Type_Grocery Store', 'Item_MRP', and 'Outlet_Type_Supermarket Type3.' These features also predicted the highest sales as well.
+
+- The highest and lowest sales for an outlet store were chosen in order to see what features had the biggest impact on the predictions for the outlet sales. Both of the outlets had the same features that affected their respective sales, but they had the opposite effect on one another.
+
+
 
 ## Model
 The Random Forest model had the best performance of the 3 models that were tested (Linear Regression, Decision Tree Model, and Random Forest Model). It was able to find the largest test R^2 test score of the models run and also had small variance, although that is insignificant when trying to maximize the test set score. Parameters for the number of leaf nodes and and the maximum depth were tuned as well and found that 11 leaf nodes at a depth of 5 produced the optimal test score. The RMSE and R^2 were vital in the performance of the model. MAE and MSE were not regression metrics tested.
