@@ -68,25 +68,25 @@ Item_Outlet_Sales |	Sales of the product in the particular store. This is the ta
 
 
 #### **Force Plot for Outlet with Highest Sales**
-![sample image](Image/high_force.png)
+![sample image](high_force.png)
 
 > In the force plot above, 'Item_MRP' is the most influential feature in predicting the outlet sales of the outlet with the highest sales.
 
 
 #### **Force Plot for Outlet with Lowest Sales**
-![sample image](Image/low_force.png)
+![sample image](low_force.png)
 
 > 'Outlet_Type_Grocery Store' was the biggest predictor of the outlet sales for this outlet store.
 
 
 #### **Lime Tabular Explanation for Outlet with Highest Sales**
-![sample image](Image/high_lime.png)
+![sample image](high_lime.png)
 
 > The top 3 features that most influenced the outlet sales predictions were 'Outlet_Type_Grocery Store', 'Item_MRP' and 'Outlet_Type_Supermarket Type 3.'
 
 
 #### **Lime Tabular Explanation for Outlet with Lowest Sales**
-![sample image](Image/low_lime.png)
+![sample image](low_lime.png)
 
 > The top 3 features that predicted the outlet sales for this outlet store were 'Outlet_Type_Grocery Store', 'Item_MRP', and 'Outlet_Type_Supermarket Type3.' These features also predicted the highest sales as well.
 
